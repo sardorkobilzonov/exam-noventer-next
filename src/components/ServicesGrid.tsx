@@ -6,7 +6,7 @@ import Cofee from "../assets/Coffee.png"
 
 const ServicesGrid = () => {
   return (
-    <section className="container mx-auto px-4 py-12">
+    <section className="container bg-custom mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-900 bg-opacity-50 p-6 rounded-lg">
             <Image

@@ -5,7 +5,7 @@ import { Briefcase, LayoutGrid, ShoppingCart, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto px-4 py-16 md:py-24 flex flex-col  hero">
+    <section className="container bg-custom mx-auto px-4 py-16 md:py-24 flex flex-col  hero">
       <div className="md:w-1/2">
         <h1 className="text-white text-4xl md:text-5xl font-bold mb-4">
           Yuqori sifatdagi <br />

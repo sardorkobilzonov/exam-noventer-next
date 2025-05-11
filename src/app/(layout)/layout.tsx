@@ -6,10 +6,11 @@ import { FC, ReactNode } from "react"
 
 const MainLayout:FC<{children:ReactNode}>  = ({children}) => {
   return (
-    <>
-      <Header/>
-      {children}
-      <Contact />
+    
+   <>
+    <Header/>
+    {children}
+    <Contact />
     </>
   )
 }

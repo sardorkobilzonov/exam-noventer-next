@@ -8,7 +8,7 @@ const Header = () => {
     `text-white font-medium  text-[18px] font-inter `;
   return (
     <>
-      <nav className="container mx-auto flex items-center justify-between py-4 px-4">
+      <nav className="bg-custom container mx-auto flex items-center justify-between py-4 px-4">
         <div className="flex items-center">
           <Link href="/">
             <Image src={Logo} alt="Logo" width={180} height={30} />

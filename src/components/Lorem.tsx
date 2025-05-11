@@ -2,7 +2,7 @@ import React from 'react'
 
 const Lorem = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container bg-custom mx-auto px-4 py-8">
         <p className="text-gray-400 text-sm text-center">
           Bu yerda esa qisqa lorem ipsum matnlarini joylash kerak. Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an

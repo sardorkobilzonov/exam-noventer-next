@@ -30,7 +30,7 @@ const Projects = () => {
   ]
 
   return (
-    <section className="container mx-auto px-4 py-12 bg-gradient-to-b">
+    <section className="bg-custom container mx-auto px-4 py-12 bg-gradient-to-b">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-white text-4xl font-bold text-center mb-3">Loyihalarimiz</h2>
         <p className="text-gray-300 text-center mb-16">Biz haqimizdagi gaplar</p>

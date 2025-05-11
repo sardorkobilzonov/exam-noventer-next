@@ -5,7 +5,7 @@ import Exp3 from "../assets/Exp3.png"
 
 const Experience = () => {
   return (
-    <section className=" py-24 overflow-hidden relative">
+    <section className="bg-custom py-24 overflow-hidden relative">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-12 lg:mb-0">
@@ -51,7 +51,6 @@ const Experience = () => {
               />
             </div>
 
-            {/* Purple glow effect */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-purple-700/20 blur-[100px]"></div>
           </div>
         </div>

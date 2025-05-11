@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+const Xizmatlar = () => {
   return (
-    <div>
-      sdsdsd
+    <div className='text-center text-7xl my-10 text-white'>
+      Comming Soon!
     </div>
   )
 }
 
-export default Navbar
+export default Xizmatlar

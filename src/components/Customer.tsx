@@ -4,15 +4,13 @@ import Frame from "../assets/Frame 89.png"
 
 const CRMPages = () => {
   return (
-    <section className="bg-gradient-to-r from-[#1E0B33] rounded-2xl to-[#2A1245] relative overflow-hidden mx-120">
+    <section className="bg-gradient-to-r bg-custom from-[#1E0B33] rounded-2xl to-[#2A1245] relative overflow-hidden mx-120">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
-          {/* Left side - Text content */}
           <div className="w-full lg:w-1/2 p-8 lg:p-16 relative">
             <h2 className="text-white text-4xl font-bold mb-10">CRM Sahifalari</h2>
 
             <div className="space-y-8">
-              {/* Feature 1 */}
               <div>
                 <div className="flex items-center mb-2">
                   <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center mr-3">
@@ -25,7 +23,6 @@ const CRMPages = () => {
                 </p>
               </div>
 
-              {/* Feature 2 */}
               <div>
                 <div className="flex items-center mb-2">
                   <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center mr-3">
@@ -38,7 +35,6 @@ const CRMPages = () => {
                 </p>
               </div>
 
-              {/* Feature 3 */}
               <div>
                 <div className="flex items-center mb-2">
                   <div className="w-6 h-6 bg-white rounded-md flex items-center justify-center mr-3">
@@ -62,13 +58,11 @@ const CRMPages = () => {
               Buyurtma berish
             </button>
 
-            {/* CRM icon in background */}
             <div className="absolute bottom-10 right-10 text-gray-500 opacity-10">
               <Users size={150} />
             </div>
           </div>
 
-          {/* Right side - Image placeholder (not needed as per user request) */}
           <div className="w-full lg:w-1/2 p-4 lg:p-8">
           <Image
                 src={Frame}

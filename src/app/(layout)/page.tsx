@@ -14,13 +14,13 @@ const Home = () => {
    <>
       
       <main className='min-h-screen bg-[#0F0118]'>
-       <Hero />
-      
-       <About />
-       <ServicesGrid />
-       <Lorem />
-       <Projects />
-       <Services />
+            <Hero />
+            <About />
+            <ServicesGrid />
+            <Lorem />
+            <Projects />
+            <Services />
+       
        
       </main>
     
